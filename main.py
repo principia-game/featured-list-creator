@@ -11,6 +11,11 @@ def u32(data):
 def main():
 	data = json.loads(open(Path("data/data.json"), "r").read())
 
+	if len(data['featured_levels']) > 4:
+		raise ValueError("Principia only supports up to 4 featured levels at once.")
+	if len(data['gettingstarted_list'])  > 12:
+		raise ValueError("Principia can, at best, only fit up to 12 getting started links at once.")
+
 	with open('fl.cache', 'wb+') as f:
 		f.write(u32(len(data['featured_levels'])))		# featured_level_count
 		for feat_level in data['featured_levels']:
