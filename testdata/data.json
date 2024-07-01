@@ -1,0 +1,52 @@
+{
+	"featured_levels": [
+		{
+			"id": 1,
+			"name": "Name",
+			"author": "Author",
+			"jpeg_image": "testdata/blank.jpg"
+		}, {
+			"id": 2,
+			"name": "Name",
+			"author": "Author",
+			"jpeg_image": "testdata/blank.jpg"
+		}, {
+			"id": 3,
+			"name": "Name",
+			"author": "Author",
+			"jpeg_image": "testdata/blank.jpg"
+		}, {
+			"id": 4,
+			"name": "Name",
+			"author": "Author",
+			"jpeg_image": "testdata/blank.jpg"
+		}
+	],
+	"gettingstarted_list": [
+		{
+			"name": "Link 1",
+			"link": "https://example.org"
+		}, {
+			"name": "Link 2",
+			"link": "https://example.org"
+		}, {
+			"name": "Link 3",
+			"link": "https://example.org"
+		}, {
+			"name": "Link 4",
+			"link": "https://example.org"
+		}, {
+			"name": "Link 5",
+			"link": "https://example.org"
+		}, {
+			"name": "Link 6",
+			"link": "https://example.org"
+		}, {
+			"name": "Link 7",
+			"link": "https://example.org"
+		}, {
+			"name": "Link 8",
+			"link": "https://example.org"
+		}
+	]
+}
